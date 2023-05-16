@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Сделаем лучше вместе</title>
+  <meta name="description" content="Описание страницы" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="img/logo.png" alt="logo">
+      <p class="god">Сделаем лучше вместе</p>
+      <form action="" class="btn header__without_reg_auth">
+        <input type="button" value="Регистрация" class="header__btn btnreg">
+        <input type="button" value="Вход" class="header__btn">
+      </form>
+    </header>
+
+    <main>
+
+      <div class="rectangle">
+        <h1>Регистрация</h1>
+      </div>
+
+      <form class="reg" id="signup-form" onSubmit="return" formValidation()>
+        <p class="form__field_text1">ФИО</p>
+        <input type="text" class="form__field1" id="fio">
+        <p class="form__field_text1">Логин</p>
+        <input type="text" class="form__field1" id="login">
+        <p class="form__field_text1">Email</p>
+        <input type="text" class="form__field1">
+        <p class="form__field_text1">Пароль</p>
+        <input type="text" class="form__field1" id="password">
+        <p class="form__field_text1">Повторите Пароль</p>
+        <input type="text" class="form__field1">
+        <input type="submit" class="form__btn1 t1" id="signup_btn" value="Регистрация">
+      </form>
+
+      <p class="t1">Регистрация</p> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
